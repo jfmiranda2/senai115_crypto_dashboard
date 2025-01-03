@@ -23,3 +23,5 @@ for option in options:
     with st.container(height=300):
         st.markdown(option)
 
+
+st.write('Count = ', st.session_state.count)
